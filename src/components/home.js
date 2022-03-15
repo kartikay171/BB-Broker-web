@@ -5,7 +5,7 @@ const home = () => {
   return (
     <>
       <Login />
-      <Signup />
+      {/* <Signup /> */}
     </>
   );
 };
