@@ -3,7 +3,18 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-import "./style.css";
+import "./css/style1.css";
+import "./css/bootstrap.min.css";
+import "./css/color_theme.css";
+import "./css/skin_color.css";
+import "./css/style_rtl.css";
+import "./css/style-2.css";
+import "./css/vendors_css.css";
+import "./css/fontawesome-all.min.css";
+import "./icomoon/style.css";
+
+// import "./css/skin_color.css";
+// import "./css/style1.css";
 
 ReactDOM.render(
   <React.StrictMode>
