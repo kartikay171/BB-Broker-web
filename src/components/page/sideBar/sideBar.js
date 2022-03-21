@@ -13,7 +13,7 @@ const sidebar = () => {
               </li>
               <li>
                 <a href="builder-list.html">
-                  <span>Owner Profile</span>
+                  <span>B</span>
                 </a>
               </li>
               <li>
