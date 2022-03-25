@@ -8,54 +8,60 @@ const sidebar = () => {
               {/* <li class="header">Dashboard</li> */}
               <li>
                 <a href="index.html">
-                  <span>Home</span>{" "}
+                  <span>HOME</span>{" "}
                 </a>
               </li>
               <li>
                 <a href="builder-list.html">
-                  <span>B</span>
+                  <span>BROADCASTS</span>
                 </a>
               </li>
               <li>
                 <a href="#">
-                  <span>Project</span>
+                  <span>PROJECTS</span>
                 </a>
               </li>
 
               <li>
                 <a href="#">
                   {" "}
-                  <span>Broadcasts</span>
+                  <span>BUILDERS</span>
                 </a>
               </li>
               <li>
                 <a href="#">
                   {" "}
-                  <span>Channel Partners</span>
+                  <span>CLIENT VISITS</span>
                 </a>
               </li>
               <li>
                 <a href="#">
                   {" "}
-                  <span>Meetings & Visits</span>{" "}
+                  <span>EVENTS & POLLS</span>{" "}
                 </a>
               </li>
               <li>
                 <a href="#">
                   {" "}
-                  <span>Reports</span>{" "}
+                  <span>YOUR TEAM</span>{" "}
                 </a>
               </li>
               <li>
                 <a href="#">
                   {" "}
-                  <span>Team</span>{" "}
+                  <span>NEWS</span>{" "}
                 </a>
               </li>
               <li>
                 <a href="#">
                   {" "}
-                  <span>Event & Polls</span>{" "}
+                  <span>CIRCLE RATES</span>{" "}
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  {" "}
+                  <span>REAL ESTATE LAYWERS</span>{" "}
                 </a>
               </li>
             </ul>

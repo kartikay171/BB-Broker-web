@@ -17034,6 +17034,12 @@ input[type="text"].color::placeholder {
   /* Most modern browsers support this now. */
   color: #80bcf3;
 }
+.has-search .form-control:focus {
+  padding-left: 2.375rem;
+  background: transparent;
+  color: #fff;
+  border: none;
+}
 
 input[type="text"].color::-webkit-input-placeholder {
   /* WebKit, Blink, Edge */
@@ -17718,17 +17724,23 @@ body .main-header .navbar .nav > li.search-box > a:focus {
 .sidebar-form input:focus {
   border-color: transparent;
 }
-
+.nav a:hover {
+  background-color: transparent !important;
+}
 .sidebar-menu {
   list-style: none;
   margin: 0 0px;
   padding: 1px 0px 50px 0px;
 }
+.has-search input:focus {
+  background: transparent;
+}
+
 .fav {
   border-right: 1px solid #359bfa;
   margin-left: -50px;
 }
-.sideFont{
+.sideFont {
   font-size: 13px;
 }
 .sidebar-menu > li {
