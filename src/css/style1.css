@@ -17082,6 +17082,27 @@ input[type="text"].color::placeholder {
 .click {
   margin-left: -94px;
 }
+.scrollmenu {
+  background-color: #fff;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+.scrollmenu a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  border-right: 1px solid #D8D8D8;
+}
+
+/*.scrollmenu a:hover {
+  background-color: #777;
+}*/
+
+.scrollmenu img{filter: grayscale(100%);}
+.scrollmenu img:hover{filter: grayscale(0%);}
 .butt{
   background-color: #dbe5f3;
     color: #4a4b4c;

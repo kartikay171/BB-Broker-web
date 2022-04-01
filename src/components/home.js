@@ -6,8 +6,8 @@ import ProjectList from "./ProjectList/ProjectList";
 const home = () => {
   return (
     <>
-      {/* <Login />
-      <Signup /> */}
+      {/* <Login /> */}
+      {/* <Signup /> */}
       {/* <Pages /> */}
       <ProjectList />
     </>

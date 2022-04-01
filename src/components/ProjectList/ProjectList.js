@@ -3,6 +3,7 @@ import golf from "../../img/golf.png";
 import cardImg from "../../img/card.png";
 import circle from "../../img/cirlce.svg";
 import { Dropdown } from "react-bootstrap";
+import m3 from "../../img/m.png";
 
 const projectList = () => {
   return (
@@ -10,8 +11,39 @@ const projectList = () => {
       <Pages>
         {/* <div>hello</div>
         <div>hello2</div> */}
+        <div>
+          <div class="scrollmenu">
+            <a href="">
+              <img src={m3} />
+            </a>
+            <a href="">
+              <img src={m3} />
+            </a>
+            <a href="">
+              <img src={m3} />
+            </a>
+            <a href="">
+              <img src={m3} />
+            </a>
+            <a href="">
+              <img src={m3} />
+            </a>
+            <a href="">
+              <img src={m3} />
+            </a>
+            <a href="">
+              <img src={m3} />
+            </a>
+          </div>
+        </div>
 
-        <div style={{ backgroundColor: "#f2ebeb", borderRadius: "7px" }}>
+        <div
+          style={{
+            backgroundColor: "#f2ebeb",
+            borderRadius: "7px",
+            marginTop: "50px",
+          }}
+        >
           <div
             class="alert"
             style={{ paddingBottom: "0px", marginBottom: "50px" }}
