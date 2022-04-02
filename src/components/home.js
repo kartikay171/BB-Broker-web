@@ -2,6 +2,7 @@ import Signup from "./signup/signup";
 import Login from "./login/login";
 import Pages from "./page/pages";
 import ProjectList from "./ProjectList/ProjectList";
+import Pricing from "./Pricing/Pricing";
 
 const home = () => {
   return (
@@ -9,7 +10,8 @@ const home = () => {
       {/* <Login /> */}
       {/* <Signup /> */}
       {/* <Pages /> */}
-      <ProjectList />
+      {/* <ProjectList /> */}
+      <Pricing />
     </>
   );
 };
